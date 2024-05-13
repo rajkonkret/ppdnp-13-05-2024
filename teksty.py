@@ -38,3 +38,28 @@ print(encoded_s)  # b'Witaj \xc5\x9bwiecie'  b - zapis bajtowy
 # liczba w kodzie szesnastkowym \xc5
 print(type(encoded_s))  # <class 'bytes'>
 print(encoded_s.decode('utf-8'))  # Witaj świecie
+
+imie = "Radek"
+tekst_format = f"\tMam na imię {imie}\n i lubię Pythona.\b Dodatkowe zdanie"
+# f - f-string - tekst sformatowany
+# w {} wpisujemy zawartość zmiennej
+print(tekst_format)
+# "	  Mam na imię Radek
+#  i lubię Pythona Dodatkowe zdanie"
+# \ - znak ucieczki - znak po tym znaku jest znakiem sterującym
+# \t - tabulator
+# \n - nowa linia
+# \b - backspace
+
+starszy = "Witaj %s!"  # %s - oczekuje stringa
+print(starszy % imie)  # Witaj Radek!
+
+print("Witaj {}!".format(imie))  # Witaj Radek!
+
+# tekst wielolinijkowy
+print("""Tekst
+    wielolinijkowy
+Tekst dodatkowy""")
+# "Tekst
+#     wielolinijkowy
+# Tekst dodatkowy"
