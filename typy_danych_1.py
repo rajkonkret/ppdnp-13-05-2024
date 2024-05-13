@@ -103,7 +103,7 @@ a = 8
 b = 6
 print(f"Porównanie {a} > {b}", a > b)  # Porównanie 8 > 6 True
 print(f"Porównanie {a} < {b}", a < b)  # Porównanie 8 < 6 False
-print(f"Porównanie {a} == {b}", a == b)  # Porównanie 8 == 6 False
-print(f"Porównanie {a} != {b}", a != b)  # Porównanie 8 != 6 True
+print(f"Porównanie {a} == {b}", a == b)  # Porównanie 8 == 6 False, == porównanie
+print(f"Porównanie {a} != {b}", a != b)  # Porównanie 8 != 6 True, != czy rózne
 print(f"Porównanie {a} >= {b}", a >= b)  # Porównanie 8 >= 6 True
 print(f"Porównanie {a} <= {b}", a <= b)  # Porównanie 8 <= 6 False
