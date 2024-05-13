@@ -61,3 +61,4 @@ print(type(name))  # <class 'int'>
 age = 48
 print(age)
 print(type(age))
+# dodana wartośc do brancha fix-teskst
