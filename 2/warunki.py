@@ -63,3 +63,41 @@ print(f"Rabat wynosi {rabat}")  # Rabat wynosi 25
 
 rabacik = 25 if suma_zam > 100 else 0
 print(f"Rabat wynosi {rabacik}")  # Rabat wynosi 25
+
+# zasymulemy system zbierania logów
+# zmienne będą przechowywać dane, które przyszły z innego systemu
+# w zależności od danych, będziemy wykonywać rózne zadania
+# email, console, dowolny inny
+# alert z konsoli - wydrukujemy gotowy komunikat
+# np.: "Stało się coś strasznego"
+# email
+# zapiszemy komunikat do listy
+# error, medium, czy dowolny inny
+# dodamy właściwy opis komunikatu do tej listy
+
+# co najmniej dwie zmienne
+# lista
+# w jedej zmiennej możemu umieści nasz standardowy komunikat
+# if elif else
+
+# alert_system = 'console'
+
+alert_system = 'email'
+error = "medium"
+
+error_message = "Stało się coś strasznego"
+lista_bledow = []  # pusta lista
+if alert_system == 'console':
+    print(error_message)  # Stało się coś strasznego
+elif alert_system == 'email':
+    print("Alert z systemu email")  # Alert z systemu email
+    if error == 'error':
+        lista_bledow.append("Wystąpił bład error")
+    elif error == 'medium':
+        lista_bledow.append("Wystąpiło ostrzeżenie")
+    else:
+        lista_bledow.append("Wystąpił inny błąd")
+else:
+    print("Nie znam takiego systemu")
+
+print(lista_bledow)
