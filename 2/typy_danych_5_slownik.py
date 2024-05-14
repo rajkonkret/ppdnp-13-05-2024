@@ -41,3 +41,28 @@ print(dictionary['imie'])  # Zenek
 # print(dictionary['Imie'])  # KeyError: 'Imie'
 print(dictionary.get('imie'))  # Zenek
 print(dictionary.get('Imie', 'default'))  # default - zwraca wartość domyślną
+
+# # input() - pobiera dane np.:  z klawiatury
+# tekst = input("Wpisz tekst")
+# print(tekst)  # "Radek "
+
+# napisać program słownik pol-ang
+# słownik z danymi +
+# wypisac zasób slówek (klucz) +
+# pobrać słowo od uzytkownika +
+# wypisać tłumaczenie
+
+# dict_pol_ang = {'kot': 'cat', "woda": 'water', 'pies': 'dog', 'zielony': 'green'}
+# print(dict_pol_ang.keys())  # dict_keys(['kot', 'woda', 'pies', 'zielony'])
+# odp = input("Podaj słowo do przetłumaczenia")
+# print(dict_pol_ang[odp.replace(" ", "").lower()])  # KeyError: ' woda'
+# print(dict_pol_ang.get(odp.replace(" ", "").lower(), "Brak słówka"))
+
+# napisac kalkulator
+# pobrac dwie liczby
+# wyświetlic wynik działania (dodawania)
+
+# input zawsze zwraca str
+a = int(input("Podaj pierwszą liczbę"))
+b = input("Podaj drugą liczbę")
+print(a + float(b))  # 15.0
