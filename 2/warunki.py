@@ -100,4 +100,16 @@ elif alert_system == 'email':
 else:
     print("Nie znam takiego systemu")
 
-print(lista_bledow)
+print(lista_bledow)  # ['Wystąpiło ostrzeżenie']
+
+# napisać test z...
+# zadać pytanie
+# pobrać odpowiedź
+# sprawdzić czy prawidłowa
+# wyświetlić wynik
+
+odp = input("Podaj datę Chrztu Polski")  # str
+if odp == '966':  # bo str
+    print("Odpowiedź prawidłowa")
+else:
+    print("Masz to w książce na stronie 23")
