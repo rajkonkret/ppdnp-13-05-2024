@@ -19,7 +19,7 @@ dict_list = [
 ]
 
 with open(filename, "w", newline='') as csv_f:
-    csvwriter = csv.DictWriter(csv_f, fieldnames=fields)
+    csvwriter = csv.DictWriter(csv_f, fieldnames=fields, delimiter=";")
     csvwriter.writeheader()  # zapisanie nagłóków
     # csvwriter.writerow(dictionary)  # zapisanie słownika jako jeden wiersz
     csvwriter.writerows(dict_list)  # zapisanie listy słownikó jako wiele wierszy

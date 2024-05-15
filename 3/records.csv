@@ -1,5 +1,5 @@
-name,branch,year,cgpa
-radek,coe,3,9.1
-tomek,cos,2,19.1
-zenek,cot,4,9.10
-Krzysztof,cor,1,11
+name;branch;year;cgpa
+radek;coe;3;9.1
+tomek;cos;2;19.1
+zenek;cot;4;9.10
+Krzysztof;cor;1;11
