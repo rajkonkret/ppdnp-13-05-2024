@@ -45,5 +45,7 @@ dictionary_2 = {'name': "imie", 'company': "Orange"}
 d = {}
 for k, v in dictionary_2.items():
     d[v] = k
+
+print(dictionary_2)  # {'name': 'imie', 'company': 'Orange'}
 print(d)  # {'imie': 'name', 'Orange': 'company'}
 print({value: key for key, value in dictionary_2.items()})  # {'imie': 'name', 'Orange': 'company'}
