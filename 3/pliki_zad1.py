@@ -24,7 +24,7 @@ with open('test.log', 'a', encoding='utf-8') as f:
     f.write("Dodane\n")
     f.write("Dodane dwa\n")
     f.write("Dodane trzy\n")
-    f.write("Dośdane trzy\n")
+    f.write("Dośćąźdane trzy\n")
 
 # r - odczytywanie
 with open('test.log', 'r', encoding='utf-8') as f:
