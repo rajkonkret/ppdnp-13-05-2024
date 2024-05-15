@@ -26,7 +26,7 @@ with open('test.log', 'a', encoding='utf-8') as f:
     f.write("Dodane trzy\n")
     f.write("Dośdane trzy\n")
 
-# r - odczzytywanie
+# r - odczytywanie
 with open('test.log', 'r', encoding='utf-8') as f:
     lines = f.read()
 
