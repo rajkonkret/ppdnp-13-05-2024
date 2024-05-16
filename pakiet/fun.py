@@ -7,6 +7,6 @@ def info():
 
 
 print(__name__)
-if __name__ == '__main__':
+if __name__ == '__main__':  # main i tabulator
     info()
     powitanie()
