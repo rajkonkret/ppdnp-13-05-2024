@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Mrs",
+        "first": "Antonietta",
+        "last": "Schultes"
+      },
+      "location": {
+        "street": {
+          "number": 7696,
+          "name": "Industriestraße"
+        },
+        "city": "Dillingen A.D. Donau",
+        "state": "Niedersachsen",
+        "country": "Germany",
+        "postcode": 60610,
+        "coordinates": {
+          "latitude": "-52.0874",
+          "longitude": "31.3954"
+        },
+        "timezone": {
+          "offset": "-6:00",
+          "description": "Central Time (US & Canada), Mexico City"
+        }
+      },
+      "email": "antonietta.schultes@example.com",
+      "login": {
+        "uuid": "1c53c738-86fc-48d1-9a3a-08b14f66f714",
+        "username": "purplebear596",
+        "password": "check",
+        "salt": "z7YF1eKM",
+        "md5": "84d1a225aa690316b4dcab5dc1bc06df",
+        "sha1": "f6abbfe7e98b8ba39ecff361f0cdf5d8257a4db8",
+        "sha256": "b30f9587701a9085c878ecf2022e3c58894d80a7f9a77cecaecd34308e9a6b0b"
+      },
+      "dob": {
+        "date": "1986-03-23T21:52:44.667Z",
+        "age": 38
+      },
+      "registered": {
+        "date": "2004-07-10T06:54:08.813Z",
+        "age": 19
+      },
+      "phone": "0934-9402647",
+      "cell": "0177-9811727",
+      "id": {
+        "name": "SVNR",
+        "value": "44 230386 S 612"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/28.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/28.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/28.jpg"
+      },
+      "nat": "DE"
+    }
+  ],
+  "info": {
+    "seed": "f0feee13054b4006",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}
