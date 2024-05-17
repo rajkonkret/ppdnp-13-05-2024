@@ -19,3 +19,4 @@ print(df)
 # 3     PHP  18000  15 Days       500
 
 df.to_excel('courses.xlsx')
+df.to_excel('courses_no_index.xlsx', index=False)
