@@ -118,3 +118,5 @@ spam /= 1    spam = spam / 1
 spam %= 1    spam = spam % 1
 # lisat uzytecznych bibliotek
 https://blog.przemyslawsobolewski.com/top-najpopularniejszych-bibliotek-w-pythonie-ktore-kazdy-programista-powinien-znac/
+pip freeze > requirements.txt
+pip install -r .\requirements.txt
