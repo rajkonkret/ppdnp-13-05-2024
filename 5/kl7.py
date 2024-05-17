@@ -67,4 +67,4 @@ or2.wydaj_odglos()  # kierr kier kir
 # sow = Sowa("Sowa", 0)
 
 or2.polowanie()  # Tu Bielik Rozpoczynam polowanie
-kur2.dziobanie()  # Tu Kura domowa Idę sobie podziobac.
+kur2.dziobanie()  # Tu Kura domowa Idę sobie podziobac.a
