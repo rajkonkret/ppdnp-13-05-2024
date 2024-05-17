@@ -15,5 +15,7 @@ print(xml_str)
 # 	<product name="Geek"/>
 # </root>
 print(type(xml_str))  # <class 'str'>
+
+# zapisujemy do pliku
 with open('gfg.xml', 'w') as f:
     f.write(xml_str)
